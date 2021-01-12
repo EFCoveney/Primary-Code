@@ -9,7 +9,7 @@ echo "Hi Welcome to PizzaPlanet"
 # Step 1 - Selecting the Pizza size
 
 echo "Please select a pizza size to start with."
-read -p "Small, Medium, Large or X-large: " size
+read -p "Small ($7.99), Medium ($11.99), Large ($15.99) or X-large (19.99): " size
 if [ "$size" = Small ]; then
 echo "A small pizza, no problem."
 fi
